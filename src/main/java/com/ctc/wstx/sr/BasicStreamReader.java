@@ -1967,7 +1967,7 @@ public abstract class BasicStreamReader
             char c = (mInputPtr < mInputEnd) ? mInputBuffer[mInputPtr++]
                 : getNextChar(SUFFIX_IN_ATTR_VALUE);
             // Let's do a quick for most attribute content chars:
-            if (c <= '\'') {
+            if (c <= '\'' && c != '\n') {
                 if (c < CHAR_SPACE) {
                     if (c == '\n') {
                         markLF();

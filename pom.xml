@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-      <groupId>com.fasterxml</groupId>
-      <artifactId>oss-parent</artifactId>
-      <version>33</version>
-    </parent>
 
-    <groupId>com.fasterxml.woodstox</groupId>
+    <groupId>com.scalableminds</groupId>
     <artifactId>woodstox-core</artifactId>
-    <version>5.2.0-SNAPSHOT</version>
+    <version>5.2.0-SCM</version>
     <packaging>bundle</packaging>
     <name>Woodstox</name>
     <description>
@@ -23,20 +18,6 @@
         <email>tatu@fasterxml.com</email>
       </developer>
     </developers>
-    <organization>
-        <name>FasterXML</name>
-        <url>http://fasterxml.com</url>
-    </organization>
-    <url>https://github.com/FasterXML/woodstox</url>
-    <issueManagement>
-        <url>https://github.com/FasterXML/woodstox/issues</url>
-    </issueManagement>
-    <scm>
-        <connection>scm:git:git@github.com:FasterXML/woodstox.git</connection>
-        <developerConnection>scm:git:git@github.com:FasterXML/woodstox.git</developerConnection>
-        <url>https://github.com/FasterXML/woodstox</url>
-        <tag>HEAD</tag>
-    </scm>
 
     <properties>
       <version.msv>2013.6.1</version.msv>

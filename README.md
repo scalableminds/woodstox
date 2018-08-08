@@ -2,11 +2,10 @@
 
 The gold standard Stax XML API implementation. Now at Github.
 
-## Status
+# Fork
 
-[![Build Status](https://travis-ci.org/FasterXML/woodstox.svg)](https://travis-ci.org/FasterXML/woodstox)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.fasterxml.woodstox/woodstox-core/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.fasterxml.woodstox/woodstox-core/)
-[![Javadoc](https://javadoc.io/badge/com.fasterxml.woodstox/woodstox-core.svg)](http://www.javadoc.io/doc/com.fasterxml.woodstox/woodstox-core)
+Forked from https://github.com/FasterXML/woodstox
+Modified to not normalize `\n` in attribute values.
 
 # Get it!
 
@@ -15,10 +14,9 @@ The gold standard Stax XML API implementation. Now at Github.
 The most common way is to use Maven (or Ivy) to access it from Maven Central repository.
 Coordinates for this are:
 
-* Group id: `com.fasterxml.woodstox`
+* Group id: `com.scalableminds`
 * Artifact id: `woodstox-core`
-* Latest published version: 5.0.3 (23-Aug-2016)
-    * (NOTE! Version `5.0.0` was accidentally released as broken, not containing actual classes -- 5.0.1 is the first functioning 5.x version).
+* Latest published version: 5.2.0-SCM (August 2018)
 
 Note that Maven id has changed since Woodstox 4.x.
 
@@ -37,6 +35,6 @@ Woodstox 5.x is licensed under [Apache 2](http://www.apache.org/licenses/LICENSE
 
 ## Documentation etc
 
-* User mailing list for Qs: [woodstox-user](https://groups.google.com/forum/#!forum/woodstox-user) Google group 
+* User mailing list for Qs: [woodstox-user](https://groups.google.com/forum/#!forum/woodstox-user) Google group
 * Check out [project Wiki](../../wiki) for javadocs
 

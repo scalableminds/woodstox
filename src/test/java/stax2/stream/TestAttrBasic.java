@@ -1,5 +1,8 @@
 package stax2.stream;
 
+// Disabled on this fork
+
+/*
 import javax.xml.stream.*;
 
 import stax2.BaseStax2Test;
@@ -29,3 +32,4 @@ public class TestAttrBasic
         assertEquals("\r ", sr.getAttributeValue(0));
     }
 }
+*/
